@@ -1,0 +1,9 @@
+<?php
+
+function highAndLow($numbers)
+{
+  $data = explode(" ", $numbers);
+  return max($data) . " " . min($data);
+}
+
+?>
